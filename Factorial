@@ -1,0 +1,6 @@
+function factorial(n){
+  let rst = 1;
+  for(i = 0; i < n; i++) {
+    rst = rst * (n - i);}
+  return rst;//your code here
+}
