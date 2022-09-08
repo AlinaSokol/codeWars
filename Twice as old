@@ -3,6 +3,6 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   if (twiceAge >= 0) {
     return (twiceAge);
   } else {
-    return (twiceAge * (-1));
+    return (twiceAge * (-2));
   }// your code here
 }
