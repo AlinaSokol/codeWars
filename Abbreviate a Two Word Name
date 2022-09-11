@@ -1,0 +1,10 @@
+function abbrevName(name){
+let arr = name.split(' ');
+let fst = arr[0];
+let scd = arr[1];
+  let fstUpCase = fst.toUpperCase();
+  let scdUpCase = scd.toUpperCase();
+  return fstUpCase[0] + '.' + scdUpCase[0];
+    // code away
+
+}
