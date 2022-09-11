@@ -1,0 +1,8 @@
+function removeChar(str){
+  let strCut = str.split('');
+  strCut.pop();
+  strCut.shift();
+  return strCut.join('');
+ //You got this!
+
+};
