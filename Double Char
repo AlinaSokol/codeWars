@@ -1,0 +1,12 @@
+function doubleChar(str) {
+  let strNew = str.split('');
+  let strRst = [];
+  for (i = 0; i < strNew.length; i++) {
+    strRst.push(strNew[i]);
+    if (strRst.length - 1 !== strRst.length - 2) {
+      strRst.push(strNew[i]);
+    }
+  }
+  return strRst.join('');
+  // Your code here
+}
