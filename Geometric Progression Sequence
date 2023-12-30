@@ -1,0 +1,8 @@
+function geometricSequenceElements(a, r, n){
+  var array = [];
+  array[0] = a;
+  for (var i = 1; i < n; i++) {
+    array[i] = array[i - 1] * r;
+  }
+  return array.join(', ');
+}
