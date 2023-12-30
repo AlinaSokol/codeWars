@@ -1,0 +1,5 @@
+function simpleMultiplication(number) {
+    var factor = number % 2;
+    var rst = factor == 1 ? number * 9 : number * 8;
+    return rst;
+}
